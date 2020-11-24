@@ -1,0 +1,11 @@
+@import "_variables";
+
+.footer {
+  background-color: $white;
+
+  &__toTop {
+    svg {
+      width: 48px;
+    }
+  }
+}

@@ -13,3 +13,35 @@ function custom_mime_types($mimes)
     return $mimes;
 }
 add_filter('upload_mimes', 'custom_mime_types');
+
+register_nav_menus(
+    array(
+        'primary' => esc_html__('Main Menu', 'mana_world'),
+        'footer' => esc_html__('Footer Menu', 'mana_world'),
+    )
+);
+
+/**
+ * Add support for core custom logo.
+ *
+ * @link https://codex.wordpress.org/Theme_Logo
+ */
+add_theme_support(
+    'custom-logo',
+    array(
+        'flex-width'  => true,
+        'flex-height' => true,
+    )
+);
+
+function mana_world_scripts()
+{
+    wp_enqueue_script('jquery');
+
+    wp_enqueue_script('main-script', get_stylesheet_directory_uri() . '/assets/js/main.js', array(), '', true);
+
+    if (is_front_page()) {
+        wp_enqueue_script('animation-script', get_stylesheet_directory_uri() . '/assets/js/animation.js', array(), '', true);
+    }
+}
+add_action('wp_enqueue_scripts', 'mana_world_scripts');

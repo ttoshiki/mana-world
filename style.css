@@ -4,3 +4,169 @@ Theme Name: jin-child
 Author: CrossPiece
 Version: 1.00
 */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+select,
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  border-radius: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+textarea {
+  resize: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.site-main {
+  width: 100%;
+  min-width: 1100px;
+  margin: 0 auto;
+}
+
+.-sp {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .-pc {
+    display: none;
+  }
+  .-sp {
+    display: block;
+  }
+  select,
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    font-size: 16px;
+  }
+}
+
+.site-logo {
+  width: 270px;
+}
+
+.ff-container {
+  position: relative;
+  top: 40px;
+  width: 400px;
+  height: 800px;
+}
+
+.ff-container .freezeframe {
+  position: absolute;
+  left: 50%;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+
+.ff-container.ff-responsive.ff-active {
+  width: 50%;
+}
+
+.ff-container.ff-responsive .ff-image,
+.ff-container.ff-responsive .ff-canvas {
+  width: 30%;
+}
+
+.header__nav {
+  position: relative;
+}
+
+.header__loginButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 128px;
+}
+
+.footer {
+  background-color: #ffffff;
+}
+
+.footer__toTop svg {
+  width: 48px;
+}
+
+.animation__wrapper {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.animation__inner {
+  position: relative;
+  top: 40px;
+  width: 30%;
+  max-width: 300px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.animation__inner video {
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.animation__fadeout {
+  position: absolute;
+  bottom: 180px;
+  left: 70px;
+  z-index: 100;
+  width: 124px;
+  height: 34px;
+  border: none;
+  opacity: 0;
+}
+
+.animation__fadeout:hover {
+  cursor: pointer;
+}
+
+.home__followIcon svg {
+  width: 24px;
+}

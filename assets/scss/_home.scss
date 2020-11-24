@@ -1,0 +1,51 @@
+@import "_variables";
+
+.animation {
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  &__inner {
+    position: relative;
+    top: 40px;
+    width: 30%;
+    max-width: 300px;
+    height: 600px;
+    margin: 0 auto;
+
+    video {
+      position: absolute;
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  &__fadeout {
+    position: absolute;
+    bottom: 180px;
+    left: 70px;
+    z-index: 100;
+    width: 124px;
+    height: 34px;
+    border: none;
+    opacity: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.home {
+  &__followIcon {
+    svg {
+      width: 24px;
+    }
+  }
+}

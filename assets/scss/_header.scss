@@ -1,0 +1,16 @@
+@import "_variables";
+
+.header {
+  &__nav {
+    position: relative;
+  }
+  &__loginButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 128px;
+  }
+}
+
+@include mq(mobile) {
+}
