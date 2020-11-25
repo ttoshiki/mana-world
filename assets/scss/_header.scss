@@ -3,12 +3,37 @@
 .header {
   &__nav {
     position: relative;
+    width: 100%;
   }
+
+  &__navUpper {
+    position: relative;
+  }
+
   &__loginButton {
     position: absolute;
     top: 0;
     right: 0;
     width: 128px;
+  }
+
+  &__menuList {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 12px;
+
+    li {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+
+      &:not(:first-child) {
+        margin-left: 5%;
+      }
+
+      a {
+        color: #000000;
+      }
+    }
   }
 }
 

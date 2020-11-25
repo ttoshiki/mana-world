@@ -71,7 +71,7 @@
 <div id="wrapper">
   <header id="header" class="header">
 		<nav class="header__hammenu -sp">
-			<h1 class="site-logo"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/logo.svg'); ?></h1>
+			<h1 class="site-logo"><a href="<?php echo home_url(); ?>"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/logo.svg'); ?></a></h1>
 			<span class="header__trigger" href="#" @click="toggleMenu" id="trigger">
 				<span></span>
 				<span></span>
@@ -89,12 +89,13 @@
 		</nav>
 		<nav class="header__nav -pc">
       <div class="header__navUpper">
-			  <h1 class="site-logo"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/logo.svg'); ?></h1>
+			  <h1 class="site-logo"><a href="<?php echo home_url(); ?>"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/logo.svg'); ?></a></h1>
         <div class="header__loginButton"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/login_button.svg'); ?></div>
       </div>
 			<?php
           wp_nav_menu(array(
-              'theme_location' => 'primary'
+              'theme_location' => 'primary',
+              'menu_class'      => 'header__menuList',
           ));
       ?>
 		</nav>

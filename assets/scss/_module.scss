@@ -2,29 +2,13 @@
 
 .site-logo {
   width: 270px;
+  margin: 48px auto 0;
 }
 
-.ff-container {
-  position: relative;
-  top: 40px;
-  width: 400px;
-  height: 800px;
-
-  .freezeframe {
-    position: absolute;
-    left: 50%;
-    display: block;
-    width: 300px;
-    margin: 0 auto;
-    transform: translateX(-50%);
-  }
+#wrapper {
+  overflow: auto;
 }
 
-.ff-container.ff-responsive.ff-active {
-  width: 50%;
-}
-
-.ff-container.ff-responsive .ff-image,
-.ff-container.ff-responsive .ff-canvas {
-  width: 30%;
+.-en {
+  font-family: "Open Sans", sans-serif;
 }

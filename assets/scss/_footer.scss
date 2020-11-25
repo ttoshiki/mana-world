@@ -1,11 +1,50 @@
 @import "_variables";
 
 .footer {
+  position: relative;
+  min-width: $--content-width-sm;
+  padding: 24px 0;
   background-color: $white;
 
   &__toTop {
+    position: absolute;
+    top: -26px;
+    right: 48px;
+    display: inline-block;
+
     svg {
-      width: 48px;
+      width: 32px;
+    }
+  }
+
+  &__nav {
+    .menu-footer-container {
+      ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      li {
+        font-size: 12px;
+
+        &:not(:first-child) {
+          margin-left: 36px;
+        }
+      }
+
+      a {
+        color: $black;
+      }
+    }
+  }
+
+  &__companyCopyrightWrapper {
+    font-size: 10px;
+    color: $black;
+    text-align: center;
+
+    p {
+      margin-bottom: 0;
     }
   }
 }

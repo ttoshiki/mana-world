@@ -36,6 +36,9 @@ add_theme_support(
 
 function mana_world_scripts()
 {
+    wp_register_style('open_sans', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap', array(), '1.0', 'all');
+    wp_enqueue_style('open_sans');
+
     wp_enqueue_script('jquery');
 
     wp_enqueue_script('main-script', get_stylesheet_directory_uri() . '/assets/js/main.js', array(), '', true);
