@@ -6,7 +6,7 @@
 <main class="site-main">
   <div class="home__wrapper">
     <section class="home__header">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/glitter.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/glitter.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/glitter@2x.png 2x" alt="" class="home__headerGlitter">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/glitter.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/glitter.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/glitter@2x.png 2x" alt="" class="home__headerGlitter -pc">
       <div class="home__headerList">
         <a href="<?php echo home_url('/about/'); ?>" class="home__headerItem">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/about_manaworld_bg.png" alt="" class="home__headerItemIllust -about">
@@ -84,7 +84,10 @@
     </section>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/onstage.png" alt="" class="home__onstage">
     <section class="home__newPost">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/newpost_bg.png" alt="" class="home__newPostBackground">
+      <picture>
+        <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/newpost_bg-sp.png">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/newpost_bg.png" alt="" class="home__newPostBackground">
+      </picture>
       <h2 class="home__sectionHeading">NEW POST</h2>
       <ul class="home__newPostList">
         <?php
@@ -122,24 +125,24 @@
       </ul>
     </section>
     <section class="home__memberMenu">
-      <h2 class="home__sectionHeading">MEMBER’S MENU</h2>
+      <h2 class="home__sectionHeading">MEMBER’S<br class="-sp"> MENU</h2>
       <ul class="home__memberMenuList">
         <li class="home__memberMenuItem -column">
-          <a href="<?php echo home_url(); ?>" class="home__memberMenuLink">
+          <a href="<?php echo home_url(); ?>" class="home__memberMenuLink -column">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/column_bg.png" alt="" class="home__memberMenuImage -column">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/column_shadow.png" alt="" class="home__memberMenuShadow -column">
             <span class="home__memberMenuText -column">COLUMN</span>
           </a>
         </li>
         <li class="home__memberMenuItem -diary">
-          <a href="<?php echo home_url(); ?>" class="home__memberMenuLink">
+          <a href="<?php echo home_url(); ?>" class="home__memberMenuLink -diary">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/diary_bg.png" alt="" class="home__memberMenuImage -diary">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/diary_shadow.png" alt="" class="home__memberMenuShadow -diary">
             <span class="home__memberMenuText -diary">DIARY</span>
           </a>
         </li>
         <li class="home__memberMenuItem -live">
-          <a href="<?php echo home_url(); ?>" class="home__memberMenuLink">
+          <a href="<?php echo home_url(); ?>" class="home__memberMenuLink -live">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/livestream_bg.png" alt="" class="home__memberMenuImage -live">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/livestream_shadow.png" alt="" class="home__memberMenuShadow -live">
             <div class="home__memberMenuStreamText">
@@ -149,7 +152,7 @@
           </a>
         </li>
         <li class="home__memberMenuItem -qa">
-          <a href="<?php echo home_url(); ?>" class="home__memberMenuLink">
+          <a href="<?php echo home_url(); ?>" class="home__memberMenuLink -qa">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/qa_bg.png" alt="" class="home__memberMenuImage -qa">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/qa_shadow.png" alt="" class="home__memberMenuShadow -qa">
             <span class="home__memberMenuText -qa">Q&A</span>

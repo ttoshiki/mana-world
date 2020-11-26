@@ -48,3 +48,40 @@
     }
   }
 }
+
+@include mq(mobile) {
+  .footer {
+    min-width: auto;
+
+    &__toTop {
+      top: -15px;
+      right: 32px;
+    }
+
+    &__nav {
+      .menu-footer-container {
+        ul {
+          flex-wrap: wrap;
+          width: 88%;
+          margin: 0 auto;
+        }
+
+        li {
+          width: 38%;
+          margin-bottom: 6px;
+          text-align: center;
+
+          &:not(:first-child) {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+
+    &__companyCopyrightWrapper {
+      p {
+        margin: 24px 0 12px;
+      }
+    }
+  }
+}

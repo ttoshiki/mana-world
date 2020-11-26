@@ -70,8 +70,10 @@
 <body <?php body_class(); ?> id="<?php echo is_font_style(); ?>">
 <div id="wrapper">
   <header id="header" class="header">
+    <h1 class="site-logo -sp"><a href="<?php echo home_url(); ?>"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/logo.svg'); ?></a></h1>
+    <div class="header__space"></div>
+    <div class="header__loginButton -sp"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/login_button.svg'); ?></div>
 		<nav class="header__hammenu -sp">
-			<h1 class="site-logo"><a href="<?php echo home_url(); ?>"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/logo.svg'); ?></a></h1>
 			<span class="header__trigger" href="#" @click="toggleMenu" id="trigger">
 				<span></span>
 				<span></span>
@@ -79,11 +81,36 @@
 			</span>
 			<div class="header__hammenuWrapper">
 				<div class="header__hammenuInner">
-					<?php
-              wp_nav_menu(array(
-                  'theme_location' => 'primary'
-              ));
-          ?>
+					<ul class="header__hammenuList">
+            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">INFORMATION</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">ABOUT</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">PROFILE</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">CONTACT</a></li>
+          </ul>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/menu_heading-sp@2x.png" alt="" class="header__hammenuHeading">
+          <ul class="header__hammenuList">
+            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">COLUMN</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">DIARY</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">LIVE STREAM</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">Q&A</a></li>
+          </ul>
+          <div class="header__hammenuFollow">
+            <span class="header__hammenuFollowHeading -en">FOLLOW ME</span>
+            <ul class="header__hammenuFollowList">
+              <li class="header__followItem">
+                <div class="header__followIcon"><a href=""><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_fb.svg'); ?></a></div>
+              </li>
+              <li class="header__followItem">
+                <div class="header__followIcon"><a href=""><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_instagram.svg'); ?></a></div>
+              </li>
+              <li class="header__followItem">
+                <div class="header__followIcon"><a href=""><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_twitter.svg'); ?></a></div>
+              </li>
+              <li class="header__followItem">
+                <div class="header__followIcon"><a href=""><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_mail.svg'); ?></a></div>
+              </li>
+            </ul>
+          </div>
 				</div>
 			</div>
 		</nav>

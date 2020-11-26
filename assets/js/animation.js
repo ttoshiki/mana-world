@@ -6,10 +6,10 @@ jQuery(function() {
     setTimeout(() => {
       jQuery('.animation__inner').append('<button class="animation__fadeout"></button>')
       jQuery('.animation__fadeout').on('click', function() {
-        jQuery('.animation__wrapper').fadeOut('800')
+        jQuery('.animation__wrapper').fadeOut(600)
         setTimeout(() => {
           jQuery('.animation__wrapper').remove()
-        }, 800);
+        }, 600);
       })
     }, 8200);
 

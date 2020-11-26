@@ -23,14 +23,11 @@ jQuery(function() {
       jQuery(".header__hammenuWrapper").fadeOut(300);
     } else {
       jQuery(".header__hammenuWrapper").fadeIn(300);
-      jQuery(".header__hammenuWrapper").css('display', 'flex');
     }
     if (!(jQuery("#header").hasClass("-fixed"))) {
       jQuery(".header").addClass('-fixed');
     } else {
-      if (_window.scrollTop() < 94) {
-        jQuery("header").removeClass("-fixed");
-      }
+      jQuery("header").removeClass("-fixed");
     }
     jQuery(this).toggleClass('-opened')
     jQuery(".header__trigger").toggleClass('active');

@@ -1,6 +1,8 @@
 @import "_variables";
 
 .header {
+  min-width: $--content-width-sm;
+
   &__nav {
     position: relative;
     width: 100%;
@@ -38,4 +40,167 @@
 }
 
 @include mq(mobile) {
+  .header {
+    position: fixed;
+    z-index: 200;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: auto;
+    background-color: #fff;
+
+    &__hammenu {
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__trigger,
+    &__trigger span {
+      box-sizing: border-box;
+      display: inline-block;
+      transition: all 0.4s;
+    }
+
+    &__trigger {
+      position: relative;
+      z-index: 200;
+      width: 50px;
+      height: 50px;
+    }
+
+    &__trigger span {
+      position: absolute;
+      left: 50%;
+      width: 26px;
+      height: 2px;
+      background-color: #999999;
+
+      &:first-of-type {
+        transform: translate(-50%, 16px);
+      }
+
+      &:nth-of-type(2) {
+        top: 48%;
+        transform: translate(-50%, -50%);
+      }
+
+      &:nth-of-type(3) {
+        transform: translate(-50%, 32px);
+      }
+    }
+
+    &__trigger.active span:nth-of-type(1) {
+      background-color: $black;
+      -webkit-transform: translate(-12px, 26px) rotate(-45deg);
+      transform: translate(-12px, 26px) rotate(-45deg);
+    }
+    &__trigger.active span:nth-of-type(2) {
+      opacity: 0;
+    }
+    &__trigger.active span:nth-of-type(3) {
+      background-color: $black;
+      -webkit-transform: translate(-12px, 26px) rotate(-45deg);
+      transform: translate(-12px, 26px) rotate(45deg);
+    }
+
+    &__loginButton {
+      width: 21.4%;
+      max-height: 24px;
+      margin-right: 10px;
+
+      &.-sp {
+        position: relative;
+      }
+    }
+
+    &__space {
+      flex: 1;
+    }
+
+    &__hammenuWrapper {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: none;
+      width: 86vw;
+      height: 80vh;
+      min-height: 560px;
+      overflow-y: scroll;
+      background-color: $white;
+
+      li a {
+        padding: 2px 4px;
+        font-size: 16px;
+        font-weight: 600;
+        font-weight: 300;
+        color: #000000;
+        letter-spacing: 2px;
+      }
+
+      .header__hammenuItem {
+        text-align: center;
+        letter-spacing: 3px;
+
+        &:not(:first-child) {
+          margin-top: 8vw;
+        }
+      }
+    }
+
+    &__hammenuInner {
+      margin: 6vh auto 0;
+    }
+
+    &__hammenuHeading {
+      display: block;
+      width: 80%;
+      margin: 6vh auto 3vh;
+    }
+
+    &__hammenuFollowList {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin: 2vh auto;
+    }
+
+    &__followIcon {
+      svg {
+        width: 28px;
+      }
+    }
+
+    &__hammenuFollow {
+      margin-top: 6vh;
+      color: #000000;
+      text-align: center;
+    }
+
+    &__hammenuFollowHeading {
+      position: relative;
+      &::before {
+        position: absolute;
+        top: 50%;
+        left: -16px;
+        width: 10%;
+        height: 1px;
+        content: "";
+        background-color: #000000;
+        transform: skewY(45deg);
+      }
+
+      &::after {
+        position: absolute;
+        top: 50%;
+        right: -16px;
+        width: 10%;
+        height: 1px;
+        content: "";
+        background-color: #000000;
+        transform: skewY(-45deg);
+      }
+    }
+  }
 }
