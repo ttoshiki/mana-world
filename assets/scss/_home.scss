@@ -5,11 +5,11 @@
     position: fixed;
     top: 0;
     z-index: 100;
-    z-index: -1; /* ここを消す  */
+    // z-index: -1; /* ここを消す  */
     width: 100vw;
     height: 100vh;
     background-color: #fff;
-    opacity: 0; /* ここを消す  */
+    // opacity: 0; /* ここを消す  */
   }
 
   &__inner {
@@ -463,6 +463,25 @@
 }
 
 @include mq(mobile) {
+  .animation {
+    &__wrapper {
+      z-index: 200;
+    }
+
+    &__inner {
+      top: 10%;
+      width: 285px;
+      height: 500px;
+    }
+
+    &__fadeout {
+      bottom: 132px;
+      left: 87px;
+      width: 111px;
+      height: 30px;
+    }
+  }
+
   .home {
     &__wrapper {
       padding: 50px 0;
