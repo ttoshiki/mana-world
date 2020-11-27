@@ -69,7 +69,7 @@
 </head>
 <body <?php body_class(); ?> id="<?php echo is_font_style(); ?>">
 <div id="wrapper">
-  <header id="header" class="header">
+  <header id="header" class="header"<?php if (is_front_page()) { echo(' style="opacity:0"'); } ?>>
     <h1 class="site-logo -sp"><a href="<?php echo home_url(); ?>"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/logo.svg'); ?></a></h1>
     <div class="header__space"></div>
     <div class="header__loginButton -sp"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/login_button.svg'); ?></div>

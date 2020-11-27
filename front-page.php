@@ -114,7 +114,7 @@
                     the_post_thumbnail();
                 }
               ?>
-              <div class="home__newPostExcerpt"><?php echo get_the_content(); ?></div>
+              <div class="home__newPostExcerpt"><?php echo get_the_excerpt(); ?></div>
             </a>
           </li>
         <?php endwhile; ?>

@@ -104,6 +104,7 @@ textarea {
 
 .header {
   min-width: 1000px;
+  opacity: 0;
 }
 
 .header__nav {
@@ -401,7 +402,7 @@ textarea {
 
 .home__wrapper {
   padding: 32px 0 56px;
-  background-image: url(assets/images/home/global_bg.jpg);
+  background-image: url(../images/home/global_bg@2x.jpg);
   background-size: cover;
 }
 
@@ -410,7 +411,7 @@ textarea {
   max-width: 876px;
   min-height: 552px;
   margin: 0 auto;
-  background-image: url(assets/images/home/header@2x.png);
+  background-image: url(../images/home/header@2x.png);
   background-size: cover;
 }
 
@@ -809,7 +810,6 @@ textarea {
     top: 10%;
     width: 285px;
     height: 500px;
-    transform: translateY(0);
   }
   .animation__fadeout {
     bottom: 132px;
@@ -819,13 +819,13 @@ textarea {
   }
   .home__wrapper {
     padding: 50px 0;
-    background-image: url(assets/images/home/global_bg-sp.jpg);
+    background-image: url(../images/home/global_bg-sp.jpg);
     background-position: 0 50px;
   }
   .home__header {
     max-width: none;
     min-height: 780px;
-    background-image: url(assets/images/home/header-sp@2x.png);
+    background-image: url(../images/home/header-sp@2x.png);
   }
   .home__headerList {
     top: 46%;
