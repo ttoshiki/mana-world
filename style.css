@@ -987,3 +987,115 @@ textarea {
     padding: 16px 12px 12px 16px;
   }
 }
+
+.page-id-116 .wpcf7 {
+  width: 100%;
+  padding: 30px 30px 0 !important;
+  margin: 0 auto !important;
+}
+
+.page-id-116 .cps-post-main {
+  padding: 0;
+}
+
+.page-id-116 .cps-post-main p {
+  padding-bottom: 0;
+  margin-bottom: 24px;
+}
+
+.page-id-116 .form-name input {
+  max-width: 300px;
+  margin-bottom: 4px !important;
+}
+
+.page-id-116 .cps-post-main-box h2 {
+  padding: 0;
+  margin: 56px 0 8px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+  letter-spacing: 1px;
+  background-color: transparent !important;
+}
+
+.page-id-116 form p {
+  margin-bottom: 12px !important;
+}
+
+.page-id-116 .form-block {
+  margin-bottom: 16px;
+}
+
+.page-id-116 .form-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.page-id-116 input {
+  max-width: 300px;
+  padding: 7px 10px;
+  margin-bottom: 4px;
+  border: 1px solid #cccccc;
+}
+
+.page-id-116 span.wpcf7-list-item {
+  margin: 0 0 6px 0;
+}
+
+.page-id-116 input[type="submit"] {
+  padding: 12px 64px;
+  margin: 40px auto 0;
+  background-color: #ff99e0;
+  border: none;
+}
+
+.page-id-116 .wpcf7-form input[type="submit"]:hover {
+  background-color: #ff99e0;
+  border: none;
+}
+
+.page-id-116 .cps-post-main a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.page-id-116 .cf7pp_row {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.page-id-116 #stripe-submit {
+  display: block;
+  margin: 16px auto 0;
+  color: #ffffff;
+}
+
+.page-id-116 #cf7pp-payment-form {
+  padding-bottom: 30px;
+}
+
+.page-id-116 #stripe-submit:hover {
+  cursor: pointer;
+}
+
+.page-id-116 p.bank-transfer__detail {
+  padding: 30px !important;
+  margin-bottom: 12px;
+}
+
+.page-id-116 label[for="cf7pp_stripe_credit_card_zip"],
+.page-id-116 #cf7pp_stripe_credit_card_zip {
+  display: none;
+}
+
+.page-id-116 .wpcf7 form.invalid .wpcf7-response-output {
+  margin-top: 0;
+  border-color: #d7aaf5;
+}
+
+@media screen and (max-width: 480px) {
+  .wpcf7 .cf7pp_details_input {
+    margin-bottom: 12px;
+  }
+}

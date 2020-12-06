@@ -32,4 +32,14 @@ jQuery(function() {
     jQuery(this).toggleClass('-opened')
     jQuery(".header__trigger").toggleClass('active');
   });
+
+
+  jQuery(".wpcf7-submit").on('click', function() {
+    const submitText = jQuery("#stripe-submit").val();
+    console.log(submitText)
+  });
+  console.log(submitText)
+  jQuery("#stripe-submit").on('click', function() {
+    jQuery("#stripe-submit").val(submitText);
+  });
 })

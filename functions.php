@@ -48,3 +48,14 @@ function mana_world_scripts()
     }
 }
 add_action('wp_enqueue_scripts', 'mana_world_scripts');
+
+//****************************//
+//PayPal＆Stripe add-onプラグイン
+//****************************//
+//通貨単位を書き換える
+add_action('wpcf7_after_save', 'fix_price_number',12, 1);
+function fix_price_number( $cf7 ){
+  $post_id = sanitize_text_field($_POST['cf7pp_post']);
+  $price = sanitize_text_field($_POST['cf7pp_price']);
+  update_post_meta($post_id, "_cf7pp_price", $price);
+}
