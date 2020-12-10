@@ -45,6 +45,8 @@ function mana_world_scripts()
 
     if (is_front_page()) {
         wp_enqueue_script('animation-script', get_stylesheet_directory_uri() . '/assets/js/animation.js', array(), '', true);
+    } elseif (is_page('about')) {
+        wp_enqueue_script('about-script', get_stylesheet_directory_uri() . '/assets/js/about.js', array(), '', true);
     }
 }
 add_action('wp_enqueue_scripts', 'mana_world_scripts');
@@ -53,9 +55,10 @@ add_action('wp_enqueue_scripts', 'mana_world_scripts');
 //PayPal＆Stripe add-onプラグイン
 //****************************//
 //通貨単位を書き換える
-add_action('wpcf7_after_save', 'fix_price_number',12, 1);
-function fix_price_number( $cf7 ){
-  $post_id = sanitize_text_field($_POST['cf7pp_post']);
-  $price = sanitize_text_field($_POST['cf7pp_price']);
-  update_post_meta($post_id, "_cf7pp_price", $price);
+add_action('wpcf7_after_save', 'fix_price_number', 12, 1);
+function fix_price_number($cf7)
+{
+    $post_id = sanitize_text_field($_POST['cf7pp_post']);
+    $price = sanitize_text_field($_POST['cf7pp_price']);
+    update_post_meta($post_id, "_cf7pp_price", $price);
 }
