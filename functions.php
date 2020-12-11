@@ -47,6 +47,9 @@ function mana_world_scripts()
         wp_enqueue_script('animation-script', get_stylesheet_directory_uri() . '/assets/js/animation.js', array(), '', true);
     } elseif (is_page('about')) {
         wp_enqueue_script('about-script', get_stylesheet_directory_uri() . '/assets/js/about.js', array(), '', true);
+        wp_enqueue_script('gsap-scripts', get_stylesheet_directory_uri() . '/assets/js/lib/gsap.min.js', array(), '', true);
+        wp_enqueue_script('gsap-scroll-scripts', get_stylesheet_directory_uri() . '/assets/js/lib/ScrollTrigger.min.js', array(), '', true);
+        wp_enqueue_script('about-animation-scripts', get_stylesheet_directory_uri() . '/assets/js/about-animation.js', array(), '', true);
     }
 }
 add_action('wp_enqueue_scripts', 'mana_world_scripts');

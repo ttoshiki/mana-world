@@ -173,22 +173,22 @@
         <div class="about__deliveryItemsWrapper">
           <div class="about__deliveryItems">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_mana.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_mana.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_mana@2x.png 2x" class="about__deliveryMana" alt="">
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_01.svg'); ?></div>
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_02.svg'); ?></div>
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_03.svg'); ?></div>
-            <div class="about__deliveryItem -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_04.svg'); ?></div>
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_05.svg'); ?></div>
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_06.svg'); ?></div>
-            <div class="about__deliveryItem -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_07.svg'); ?></div>
-            <div class="about__deliveryItem -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_08.svg'); ?></div>
-            <div class="about__deliveryItem -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_09.svg'); ?></div>
-            <div class="about__deliveryItem -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_10.svg'); ?></div>
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_11.svg'); ?></div>
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_12.svg'); ?></div>
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_13.svg'); ?></div>
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_14.svg'); ?></div>
-            <div class="about__deliveryItem"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_15.svg'); ?></div>
-            <div class="about__deliveryItem"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_etc.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_etc.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_etc@2x.png 2x" class="" alt=""></div>
+            <div class="about__deliveryItem -first"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_01.svg'); ?></div>
+            <div class="about__deliveryItem -second"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_02.svg'); ?></div>
+            <div class="about__deliveryItem -third"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_03.svg'); ?></div>
+            <div class="about__deliveryItem -fourth -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_04.svg'); ?></div>
+            <div class="about__deliveryItem -fifth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_05.svg'); ?></div>
+            <div class="about__deliveryItem -sixth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_06.svg'); ?></div>
+            <div class="about__deliveryItem -seventh -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_07.svg'); ?></div>
+            <div class="about__deliveryItem -eighth -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_08.svg'); ?></div>
+            <div class="about__deliveryItem -nineth -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_09.svg'); ?></div>
+            <div class="about__deliveryItem -tenth -pc"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_10.svg'); ?></div>
+            <div class="about__deliveryItem -eleventh"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_11.svg'); ?></div>
+            <div class="about__deliveryItem -twelfth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_12.svg'); ?></div>
+            <div class="about__deliveryItem -thirteenth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_13.svg'); ?></div>
+            <div class="about__deliveryItem -fourteenth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_14.svg'); ?></div>
+            <div class="about__deliveryItem -fifteenth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_15.svg'); ?></div>
+            <div class="about__deliveryItem -sixteenth"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_etc.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_etc.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_etc@2x.png 2x" class="" alt=""></div>
           </div>
           <picture>
             <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas-sp@2x.png 2x">
@@ -199,7 +199,6 @@
           <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation-sp@2x.png 2x">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation@2x.png 2x" class="about__deliveryInvitation" alt="">
         </picture>
-        <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_content_bg-bottom.png" class="about__deliveryBackgroundBottom" alt=""> -->
       </div>
     </section>
     <section class="about__member">

@@ -97,7 +97,7 @@
     min-height: 115.8vw;
     margin-top: -572px;
     background-image: url(assets/images/about/expand_world_bg.png);
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-size: contain;
   }
 
@@ -141,6 +141,7 @@
 
   &__expandRoad {
     position: absolute;
+    opacity: 0;
 
     &.-first {
       top: -5.1vw;
@@ -188,6 +189,10 @@
   &__expandWorldMainText {
     position: absolute;
     z-index: 10;
+
+    &:not(:last-of-type) {
+      transform: scale(0);
+    }
 
     &.-first {
       top: 2.9vw;
@@ -240,22 +245,26 @@
 
   &__expandWorldMana {
     position: absolute;
+    opacity: 0;
 
     &.-first {
       top: 13.4vw;
       left: 0.2vw;
       width: 18.9%;
+      transform: translateX(-50px);
     }
 
     &.-second {
       top: 23.4vw;
       left: 37.1vw;
       width: 22.5%;
+      transform: translateY(-25px);
     }
   }
 
   &__expandOuterBlock {
     position: absolute;
+    opacity: 0;
 
     &.-first {
       top: 3.3vw;
@@ -458,6 +467,10 @@
   &__deliveryItem {
     position: absolute;
 
+    &:not(:last-of-type) {
+      transform: scale(0);
+    }
+
     &:first-of-type {
       top: 5.3%;
       left: -90%;
@@ -522,6 +535,7 @@
       top: 90%;
       left: -48%;
       width: 80px;
+      opacity: 0;
     }
   }
 
@@ -970,14 +984,14 @@
     }
 
     &__expandWorldParagraph {
-      top: 289vw;
+      top: 969vw;
       font-size: 4.26vw;
+      line-height: 1.2;
       text-shadow: #5e73ff 2px 0px, #5e73ff -2px 0px, #5e73ff 0px -2px,
         #5e73ff 0px 2px, #5e73ff 2px 2px, #5e73ff -2px 2px, #5e73ff 2px -2px,
         #5e73ff -2px -2px, #5e73ff 1px 2px, #5e73ff -1px 2px, #5e73ff 1px -2px,
         #5e73ff -1px -2px, #5e73ff 2px 1px, #5e73ff -2px 1px, #5e73ff 2px -1px,
         #5e73ff -2px -1px;
-      line-height: 1.2;
     }
 
     &__concept {
@@ -1106,7 +1120,7 @@
         top: -28.7%;
         left: -1%;
         width: 101.8%;
-        transform: rotate(21deg);
+        transform: rotate(21deg) scale(0);
       }
 
       &:nth-of-type(5) {
