@@ -37,6 +37,17 @@
       }
     }
   }
+
+  &__cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+  }
 }
 
 @include mq(mobile) {
@@ -50,7 +61,7 @@
     background-color: #fff;
 
     &__hammenu {
-      z-index: 200;
+      z-index: 400;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -151,7 +162,7 @@
     }
 
     &__hammenuInner {
-      margin: 6vh auto 0;
+      margin: 5vh auto 0;
     }
 
     &__hammenuHeading {
@@ -174,7 +185,7 @@
     }
 
     &__hammenuFollow {
-      margin-top: 6vh;
+      margin-top: 5vh;
       color: #000000;
       text-align: center;
     }

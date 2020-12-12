@@ -360,6 +360,7 @@
   }
 
   &__content {
+    position: relative;
     min-height: 1150px;
     padding-top: 64px;
     margin-top: -30px;
@@ -370,9 +371,11 @@
 
   &__contentBgFront {
     position: absolute;
-    width: 100vw;
-    height: 150%;
-    object-fit: cover;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translateX(-50%);
   }
 
   &__contentHeading {
@@ -984,7 +987,7 @@
     }
 
     &__expandWorldParagraph {
-      top: 969vw;
+      top: 297vw;
       font-size: 4.26vw;
       line-height: 1.2;
       text-shadow: #5e73ff 2px 0px, #5e73ff -2px 0px, #5e73ff 0px -2px,
