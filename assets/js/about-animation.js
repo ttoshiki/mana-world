@@ -21,12 +21,12 @@ if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android
     duration: 0.3
   }).to(".about__expandRoad.-second", {
     opacity: 1,
-    delay: 0.8,
+    delay: 0.4,
     x: transitionX
   }).to(".about__expandWorldMainText.-second", {
     scale: 1,
     duration: 0.3,
-    delay: 0.3
+    delay: 0.1
   }).to(".about__expandRoad.-second", {
     opacity: 1,
     delay: 1,
@@ -51,7 +51,7 @@ if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android
     delay: 0.3
   }).to(".about__expandRoad.-fifth", {
     opacity: 1,
-    delay: 2,
+    delay: 1.8,
   }).to(".about__expandWorldMainText.-fifth", {
     scale: 1,
     duration: 0.3,
@@ -85,20 +85,20 @@ if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android
       start: "top 50%",
     },
   }).to(".about__expandOuterBlock.-first", {
-    delay: 4.2,
-    opacity: 0.8,
+    delay: 3.6,
+    opacity: 1,
   }).to(".about__expandOuterBlock.-second", {
-    delay: 2.5,
-    opacity: 0.8,
+    delay: 2.4,
+    opacity: 1,
   }).to(".about__expandOuterBlock.-third", {
     delay: 2.8,
-    opacity: 0.8,
+    opacity: 1,
   }).to(".about__expandOuterBlock.-fourth", {
-    delay: 2.4,
-    opacity: 0.8,
+    delay: 2.3,
+    opacity: 1,
   }).to(".about__expandOuterBlock.-fifth", {
     delay: 4.7,
-    opacity: 0.8,
+    opacity: 1,
   })
 
   // 吹き出しアニメーション
@@ -125,7 +125,7 @@ if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android
   defaults: { ease: "back.out", duration: 0.3 },
   scrollTrigger: {
     trigger: ".about__deliveryMana",
-    start: "top 50%",
+    start: "center 50%",
   },
   }).to(".about__deliveryItem.-eleventh", {
     scale: 1
@@ -259,7 +259,7 @@ if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android
 
   // 吹き出しアニメーション
   gsap.timeline({
-  defaults: { ease: "back.out", duration: 0.3 },
+  defaults: { ease: "back.out", duration: 0.4 },
   scrollTrigger: {
     trigger: ".about__deliveryItem.-second",
     start: "top 50%",
