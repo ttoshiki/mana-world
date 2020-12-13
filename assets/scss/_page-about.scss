@@ -147,60 +147,18 @@
     transform: translate(-50%, -50%);
   }
 
-  &__expandRoad {
+  &__expandWorldMain {
     position: absolute;
-    opacity: 0;
-
-    &.-first {
-      top: -5.1vw;
-      left: -23%;
-      width: 28.2%;
-    }
-
-    &.-second {
-      top: 9.8vw;
-      left: -22%;
-      width: 68.9%;
-    }
-
-    &.-third {
-      top: 18.8vw;
-      left: 33%;
-      width: 63.5%;
-    }
-
-    &.-fourth {
-      top: 18.8vw;
-      left: 93.5%;
-      width: 43.2%;
-    }
-
-    &.-fifth {
-      top: 35vw;
-      left: 44.5%;
-      width: 90.3%;
-    }
-
-    &.-sixth {
-      top: 31vw;
-      left: -21.5%;
-      width: 79.6%;
-    }
-
-    &.-seventh {
-      top: 31vw;
-      left: -30.5%;
-      width: 27.1%;
-    }
+    top: 36vw;
+    left: 56%;
+    width: 96vw;
+    max-width: initial;
+    transform: translate(-50%, -50%);
   }
 
   &__expandWorldMainText {
     position: absolute;
     z-index: 10;
-
-    &:not(:last-of-type) {
-      transform: scale(0);
-    }
 
     &.-first {
       top: 2.9vw;
@@ -846,6 +804,7 @@
 
     &__expandWorldIllust {
       top: 153vw;
+      z-index: 10;
       width: 91vw;
     }
 
@@ -855,55 +814,9 @@
       width: 25vw;
     }
 
-    &__expandWorldMainText {
-      &.-first {
-        top: 18.9vw;
-        left: 3.6vw;
-      }
-
-      &.-second {
-        top: 47.9vw;
-        left: 24vw;
-        width: 49.8%;
-      }
-
-      &.-third {
-        top: 80.2vw;
-        left: 4.2vw;
-      }
-
-      &.-fourth {
-        top: 117vw;
-        left: 20.4vw;
-      }
-
-      &.-fifth {
-        top: 151vw;
-        left: -4.7vw;
-      }
-
-      &.-sixth {
-        top: 196.2vw;
-        left: 18.8vw;
-        width: 55.4%;
-      }
-
-      &.-seventh {
-        top: 233.2vw;
-        left: 4.3vw;
-        width: 55.1%;
-      }
-
-      &.-eighth {
-        top: 261.6vw;
-        left: 25.9vw;
-        width: 23.1%;
-        transform: rotate(-6deg);
-
-        g {
-          fill: #5e73ff;
-        }
-      }
+    &__expandWorldMain {
+      top: 130vw;
+      left: 46%;
     }
 
     &__expandWorldMana {
