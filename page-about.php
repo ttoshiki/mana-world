@@ -27,7 +27,7 @@
             <h2 class="about__headerContentsHeading -en">MANA WORLD</h2>
             <p class="about__headerContentsParagraph">
               “ 好き ” と “  興味 ” が世界を広げ、<br>
-              勇気を持って踏み出す1歩<br class="-sp">が「私」の世界を変えていく。
+              勇気を持って踏み出す1歩が<br class="-sp">「私」の世界を変えていく。
             </p>
             <strong class="about__headerContentsStrong -small">さぁ、どんな「私」で生きていく？</strong>
           </div>
@@ -55,23 +55,23 @@
           <div class="about__expandWorldMainText -eighth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/expand_etc.svg'); ?></div>
           <picture>
             <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01@2x.png 2x" class="about__expandOuterBlock -first" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01@2x.png 2x" class="about__expandOuterBlock -first" alt="" loading="lazy">
           </picture>
           <picture>
             <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02@2x.png 2x" class="about__expandOuterBlock -second" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02@2x.png 2x" class="about__expandOuterBlock -second" alt="" loading="lazy">
           </picture>
           <picture>
             <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03@2x.png 2x" class="about__expandOuterBlock -third" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03@2x.png 2x" class="about__expandOuterBlock -third" alt="" loading="lazy">
           </picture>
           <picture>
             <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04@2x.png 2x" class="about__expandOuterBlock -fourth" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04@2x.png 2x" class="about__expandOuterBlock -fourth" alt="" loading="lazy">
           </picture>
           <picture>
             <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05@2x.png 2x" class="about__expandOuterBlock -fifth" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05@2x.png 2x" class="about__expandOuterBlock -fifth" alt="" loading="lazy">
           </picture>
           <p class="about__expandWorldParagraph">
             常に新しいものが生まれる<br>
@@ -83,7 +83,7 @@
     <section class="about__concept">
       <picture>
         <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_item-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_item-sp@2x.png 2x">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_item.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_item.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_item@2x.png 2x" class="about__conceptImage" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_item.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_item.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_item@2x.png 2x" class="about__conceptImage" alt="" loading="lazy">
       </picture>
       <div class="about__conceptParagraphWrapper">
         <p class="about__conceptParagraph">
@@ -93,14 +93,14 @@
         </p>
         <picture>
           <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_illust-sp.png">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_mana.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_mana.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_mana@2x.png 2x" class="about__conceptMana" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_mana.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_mana.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/concept_mana@2x.png 2x" class="about__conceptMana" alt="" loading="lazy">
         </picture>
       </div>
     </section>
     <section class="about__planet">
       <picture>
         <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/mana_planet-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/mana_planet-sp@2x.png 2x">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/mana_planet.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/mana_planet.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/mana_planet@2x.png 2x" class="about__planetImage" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/mana_planet.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/mana_planet.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/mana_planet@2x.png 2x" class="about__planetImage" alt="" loading="lazy">
       </picture>
     </section>
     <section class="about__content">
@@ -111,19 +111,19 @@
       <div class="about__contentPlanetWrapper">
         <picture>
           <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_manaonstage-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_manaonstage-sp@2x.png 2x">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_manaonstage.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_manaonstage.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_manaonstage@2x.png 2x" class="about__contentManaonstage" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_manaonstage.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_manaonstage.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_manaonstage@2x.png 2x" class="about__contentManaonstage" alt="" loading="lazy">
         </picture>
         <picture>
           <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_column-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_column-sp@2x.png 2x">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_column.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_column.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_column@2x.png 2x" class="about__contentColumn" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_column.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_column.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_column@2x.png 2x" class="about__contentColumn" alt="" loading="lazy">
         </picture>
         <picture>
           <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_diary-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_diary-sp@2x.png 2x">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_diary.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_diary.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_diary@2x.png 2x" class="about__contentDiary" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_diary.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_diary.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_diary@2x.png 2x" class="about__contentDiary" alt="" loading="lazy">
         </picture>
         <picture>
           <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_planet-sp.png">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_planet.png" class="about__contentPlanet" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/content_planet.png" class="about__contentPlanet" alt="" loading="lazy">
         </picture>
       </div>
     </section>
@@ -139,12 +139,12 @@
       <div class="about__deliveryContentsWrapper">
         <picture>
           <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_sub_heading-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_sub_heading-sp@2x.png 2x">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_sub_heading.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_sub_heading.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_sub_heading@2x.png 2x" class="about__deliverySubHeading" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_sub_heading.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_sub_heading.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_sub_heading@2x.png 2x" class="about__deliverySubHeading" alt="" loading="lazy">
         </picture>
         <p class="about__deliveryParagraph">作品・企画・イベントを不定期開催・配信します。</p>
         <div class="about__deliveryItemsWrapper">
           <div class="about__deliveryItems">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_mana.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_mana.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_mana@2x.png 2x" class="about__deliveryMana" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_mana.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_mana.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_mana@2x.png 2x" class="about__deliveryMana" alt="" loading="lazy">
             <div class="about__deliveryItem -first"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_01.svg'); ?></div>
             <div class="about__deliveryItem -second"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_02.svg'); ?></div>
             <div class="about__deliveryItem -third"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/delivery_item_03.svg'); ?></div>
@@ -164,12 +164,12 @@
           </div>
           <picture>
             <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas@2x.png 2x" class="about__deliveryMiniManas" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/delivery_minimanas@2x.png 2x" class="about__deliveryMiniManas" alt="" loading="lazy">
           </picture>
         </div>
         <picture>
           <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation-sp@2x.png 2x">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation@2x.png 2x" class="about__deliveryInvitation" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/invitation@2x.png 2x" class="about__deliveryInvitation" alt="" loading="lazy">
         </picture>
       </div>
     </section>
@@ -177,7 +177,7 @@
       <p class="about__memberParagraph">『MANA WORLD』は年額の会員サービスです。</p>
       <div class="about__memberCourses">
         <div class="about__memberCourse">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_01.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_01.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_01@2x.png 2x" class="about__courseName" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_01.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_01.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_01@2x.png 2x" class="about__courseName" alt="" loading="lazy">
           <div class="about__memberPriceWrapper">
             <span class="about__memberPrice">会費：90,000円（税別）／1回</span>
             <span class="about__memberSmall">※2ヶ月分お得</span>
@@ -189,7 +189,7 @@
           </ul>
         </div>
         <div class="about__memberCourse">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_02.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_02.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_02@2x.png 2x" class="about__courseName" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_02.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_02.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_02@2x.png 2x" class="about__courseName" alt="" loading="lazy">
           <div class="about__memberPriceWrapper">
             <span class="about__memberPrice">会費：9,000円（税別）／12回</span>
           </div>
