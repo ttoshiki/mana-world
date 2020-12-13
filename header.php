@@ -125,5 +125,6 @@
               'menu_class'      => 'header__menuList',
           ));
       ?>
-		</nav>
-	</header>
+    </nav>
+    <div class="header__cover"></div>
+  </header>

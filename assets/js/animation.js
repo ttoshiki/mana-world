@@ -1,7 +1,6 @@
 "use strict";
 jQuery(function() {
   jQuery(window).on('load', function() {
-    console.log(sessionStorage)
     if (!sessionStorage.getItem('session')) {
       if (window.matchMedia( "(min-width: 480px)" ).matches) {
         jQuery('.animation__inner').append('<video src="/wp-content/themes/jin-child/assets/images/home/main.mp4" autoplay muted>')

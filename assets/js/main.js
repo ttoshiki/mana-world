@@ -21,8 +21,10 @@ jQuery(function() {
   jQuery(".header__trigger").on('click', function() {
     if ((jQuery(this)).hasClass("-opened")) {
       jQuery(".header__hammenuWrapper").fadeOut(300);
+      jQuery(".header__cover").fadeOut(300);
     } else {
       jQuery(".header__hammenuWrapper").fadeIn(300);
+      jQuery(".header__cover").fadeIn(300);
     }
     if (!(jQuery("#header").hasClass("-fixed"))) {
       jQuery(".header").addClass('-fixed');
