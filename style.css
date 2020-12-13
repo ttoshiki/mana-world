@@ -176,9 +176,22 @@ textarea {
 
 .header .sub-menu li {
   width: 100%;
-  padding: 2px 0 0 2px;
+  padding: 2px 0 0 0;
   margin-left: 0;
   font-size: 15px;
+  text-shadow: #ffffff 1px 1px 6px, #ffffff -1px 1px 6px, #ffffff 1px -1px 6px, #ffffff -1px -1px 6px, #ffffff 2px 2px 6px, #ffffff -2px 2px 6px, #ffffff 2px -2px 6px, #ffffff -2px -2px 6px, #ffffff 3px 3px 6px, #ffffff -3px 3px 6px, #ffffff 3px -3px 6px, #ffffff -3px -3px 6px;
+}
+
+.header .sub-menu li:nth-child(2) {
+  transition-delay: 70ms;
+}
+
+.header .sub-menu li:nth-child(3) {
+  transition-delay: 140ms;
+}
+
+.header .sub-menu li:nth-child(4) {
+  transition-delay: 210ms;
 }
 
 @media screen and (max-width: 480px) {
@@ -257,7 +270,7 @@ textarea {
     right: 0;
     display: none;
     width: 86vw;
-    height: 80vh;
+    height: 82vh;
     min-height: 560px;
     overflow-y: scroll;
     background-color: #ffffff;
@@ -278,7 +291,7 @@ textarea {
     margin-top: 8vw;
   }
   .header__hammenuInner {
-    margin: 5vh auto 0;
+    margin: 4vh auto 0;
   }
   .header__hammenuHeading {
     display: block;
