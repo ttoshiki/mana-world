@@ -1762,6 +1762,7 @@ textarea {
 
 @media screen and (max-width: 480px) {
   .about__header {
+    padding: 120px 0 98vw;
     background-image: url(assets/images/about/mv_bg-back-sp.jpg);
   }
   .about__mvImage {
@@ -1810,7 +1811,7 @@ textarea {
     width: 100%;
     min-width: initial;
     min-height: 380vw;
-    margin-top: -129vw;
+    margin-top: -120vw;
     background-image: url(assets/images/about/expand_world_bg-sp.png);
     background-size: contain;
   }
