@@ -44,38 +44,8 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/expand_world_illust.png" class="about__expandWorldIllust" alt="">
           </picture>
           <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road-sp.png">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road.png" class="about__expandWorldRoad" alt="">
-          </picture>
-          <div class="about__expandWorldMainText -first"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_01.svg'); ?></div>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_01.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_01.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_01@2x.png 2x" class="about__expandWorldMana -first" alt="">
-          <div class="about__expandWorldMainText -second"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_02.svg'); ?></div>
-          <div class="about__expandWorldMainText -third"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_03.svg'); ?></div>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_02.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_02.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_02@2x.png 2x" class="about__expandWorldMana -second" alt="">
-          <div class="about__expandWorldMainText -fourth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_04.svg'); ?></div>
-          <div class="about__expandWorldMainText -fifth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_05.svg'); ?></div>
-          <div class="about__expandWorldMainText -sixth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_06.svg'); ?></div>
-          <div class="about__expandWorldMainText -seventh"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_07.svg'); ?></div>
-          <div class="about__expandWorldMainText -eighth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/expand_etc.svg'); ?></div>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_01@2x.png 2x" class="about__expandOuterBlock -first" alt="" loading="lazy">
-          </picture>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_02@2x.png 2x" class="about__expandOuterBlock -second" alt="" loading="lazy">
-          </picture>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_03@2x.png 2x" class="about__expandOuterBlock -third" alt="" loading="lazy">
-          </picture>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_04@2x.png 2x" class="about__expandOuterBlock -fourth" alt="" loading="lazy">
-          </picture>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05-sp.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05-sp@2x.png 2x">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/outer_block_05@2x.png 2x" class="about__expandOuterBlock -fifth" alt="" loading="lazy">
+            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/expand_world_main-sp.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/expand_world_main.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/expand_world_main.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/expand_world_main@2x.png 2x" class="about__expandWorldMain" alt="">
           </picture>
           <p class="about__expandWorldParagraph">
             常に新しいものが生まれる<br>
