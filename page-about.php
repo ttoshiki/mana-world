@@ -483,7 +483,7 @@
               <li class="about__agreementSectionSecondItem">(2) 反社会的勢力が経営を支配していると認められる関係を有すること</li>
               <li class="about__agreementSectionSecondItem">(3) 反社会的勢力が経営に実質的に関与していると認められる関係を有すること</li>
               <li class="about__agreementSectionSecondItem">(4) 自己若しくは第三者の不正の利益を図る目的又は第三者に損害を加える目的をもってするなど、不当に反社会的勢力を利用していると認められる関係を有すること</li>
-              <li class="about__agreementSectionSecondItem">(5) 自己又は第三者をして暴力的要求、脅迫的言動、法的責任を超えた不当な要求、風説の流布・偽計・威力等による他人の信用毀損・業務妨害を行うこと</li>
+              <li class="about__agreementSectionSecondItem">(5) 反社会的勢力に対して資金等を提供し、又は便宜を供与するなどの関与をしていると認められる関係を有すること</li>
               <li class="about__agreementSectionSecondItem">(6) 役員又は経営に実質的に関与している者が、反社会的勢力と社会的に非難されるべき関係を有すること</li>
               <li class="about__agreementSectionSecondItem">(7) 自己又は第三者をして暴力的要求、脅迫的言動、法的責任を超えた不当な要求、風説の流布・偽計・威力等による他人の信用毀損・業務妨害を行うこと</li>
             </ol>
