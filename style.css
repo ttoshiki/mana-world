@@ -1166,6 +1166,14 @@ textarea {
   margin: 0 auto;
 }
 
+.about__expandWorldRoad {
+  position: absolute;
+  top: -3.3vw;
+  left: -32%;
+  width: 45vw;
+  max-width: initial;
+}
+
 .about__expandWorldIllust {
   position: absolute;
   top: 31vw;
@@ -1828,40 +1836,10 @@ textarea {
     top: 153vw;
     width: 91vw;
   }
-  .about__expandRoad.-first {
-    top: -5vw;
-    left: 32%;
-    width: 24.45%;
-  }
-  .about__expandRoad.-second {
-    top: 20.8vw;
-    left: 31%;
-    width: 38.7%;
-  }
-  .about__expandRoad.-third {
-    top: 50.6vw;
-    left: 39%;
-    width: 31.1%;
-  }
-  .about__expandRoad.-fourth {
-    top: 85.2vw;
-    left: 29.5%;
-    width: 32.9%;
-  }
-  .about__expandRoad.-fifth {
-    top: 119vw;
-    left: 37.5%;
-    width: 28.9%;
-  }
-  .about__expandRoad.-sixth {
-    top: 162vw;
-    left: 35.5%;
-    width: 24%;
-  }
-  .about__expandRoad.-seventh {
-    top: 205vw;
-    left: 32.7%;
-    width: 27.5%;
+  .about__expandWorldRoad {
+    top: -2vw;
+    left: 30%;
+    width: 25vw;
   }
   .about__expandWorldMainText.-first {
     top: 18.9vw;
@@ -1900,7 +1878,7 @@ textarea {
     width: 23.1%;
     transform: rotate(-6deg);
   }
-  .about__expandWorldMainText.-eighth .expand_etc-1 {
+  .about__expandWorldMainText.-eighth g {
     fill: #5e73ff;
   }
   .about__expandWorldMana.-first {

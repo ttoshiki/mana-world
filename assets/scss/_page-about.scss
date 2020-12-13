@@ -130,6 +130,14 @@
     margin: 0 auto;
   }
 
+  &__expandWorldRoad {
+    position: absolute;
+    top: -3.3vw;
+    left: -32%;
+    width: 45vw;
+    max-width: initial;
+  }
+
   &__expandWorldIllust {
     position: absolute;
     top: 31vw;
@@ -840,48 +848,10 @@
       width: 91vw;
     }
 
-    &__expandRoad {
-      &.-first {
-        top: -5vw;
-        left: 32%;
-        width: 24.45%;
-      }
-
-      &.-second {
-        top: 20.8vw;
-        left: 31%;
-        width: 38.7%;
-      }
-
-      &.-third {
-        top: 50.6vw;
-        left: 39%;
-        width: 31.1%;
-      }
-
-      &.-fourth {
-        top: 85.2vw;
-        left: 29.5%;
-        width: 32.9%;
-      }
-
-      &.-fifth {
-        top: 119vw;
-        left: 37.5%;
-        width: 28.9%;
-      }
-
-      &.-sixth {
-        top: 162vw;
-        left: 35.5%;
-        width: 24%;
-      }
-
-      &.-seventh {
-        top: 205vw;
-        left: 32.7%;
-        width: 27.5%;
-      }
+    &__expandWorldRoad {
+      top: -2vw;
+      left: 30%;
+      width: 25vw;
     }
 
     &__expandWorldMainText {
@@ -929,7 +899,7 @@
         width: 23.1%;
         transform: rotate(-6deg);
 
-        .expand_etc-1 {
+        g {
           fill: #5e73ff;
         }
       }

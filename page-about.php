@@ -43,6 +43,10 @@
             <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/expand_world_illust-sp.png">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/expand_world_illust.png" class="about__expandWorldIllust" alt="">
           </picture>
+          <picture>
+            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road-sp.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road.png" class="about__expandWorldRoad" alt="">
+          </picture>
           <div class="about__expandWorldMainText -first"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_01.svg'); ?></div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_01.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_01.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_01@2x.png 2x" class="about__expandWorldMana -first" alt="">
           <div class="about__expandWorldMainText -second"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_02.svg'); ?></div>
