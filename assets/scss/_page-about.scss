@@ -245,7 +245,7 @@
 
   &__expandWorldMana {
     position: absolute;
-    opacity: 0;
+    z-index: 10;
 
     &.-first {
       top: 13.4vw;

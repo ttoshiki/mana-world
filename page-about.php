@@ -43,42 +43,14 @@
             <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/expand_world_illust-sp.png">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/expand_world_illust.png" class="about__expandWorldIllust" alt="">
           </picture>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_01-sp.png">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_01.png" class="about__expandRoad -first" alt="">
-          </picture>
           <div class="about__expandWorldMainText -first"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_01.svg'); ?></div>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_02-sp.png">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_02.png" class="about__expandRoad -second" alt="">
-          </picture>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_01.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_01.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_01@2x.png 2x" class="about__expandWorldMana -first" alt="">
           <div class="about__expandWorldMainText -second"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_02.svg'); ?></div>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_03-sp.png">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_03.png" class="about__expandRoad -third" alt="">
-          </picture>
           <div class="about__expandWorldMainText -third"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_03.svg'); ?></div>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_04-sp.png">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_04.png" class="about__expandRoad -fourth" alt="">
-          </picture>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_02.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_02.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/minimana_02@2x.png 2x" class="about__expandWorldMana -second" alt="">
           <div class="about__expandWorldMainText -fourth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_04.svg'); ?></div>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_05-sp.png">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_05.png" class="about__expandRoad -fifth" alt="">
-          </picture>
           <div class="about__expandWorldMainText -fifth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_05.svg'); ?></div>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_06-sp.png">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_06.png" class="about__expandRoad -sixth" alt="">
-          </picture>
           <div class="about__expandWorldMainText -sixth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_06.svg'); ?></div>
-          <picture>
-            <source media="(max-width: 480px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_07-sp.png">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/road_07.png" class="about__expandRoad -seventh" alt="">
-          </picture>
           <div class="about__expandWorldMainText -seventh"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/item_07.svg'); ?></div>
           <div class="about__expandWorldMainText -eighth"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/about/expand_etc.svg'); ?></div>
           <picture>

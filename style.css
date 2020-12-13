@@ -1281,7 +1281,7 @@ textarea {
 
 .about__expandWorldMana {
   position: absolute;
-  opacity: 0;
+  z-index: 10;
 }
 
 .about__expandWorldMana.-first {

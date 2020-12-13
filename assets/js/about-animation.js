@@ -36,9 +36,6 @@ if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android
     opacity: 1,
   }).to(".about__expandRoad.-fourth", {
     opacity: 1,
-  }).to(".about__expandWorldMana.-first", {
-    opacity: 1,
-    x: transitionX,
   }).to(".about__expandWorldMainText.-fourth", {
     scale: 1,
   }).to(".about__expandOuterBlock.-third", {
@@ -53,9 +50,6 @@ if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android
     opacity: 1,
   }).to(".about__expandWorldMainText.-sixth", {
     scale: 1,
-  }).to(".about__expandWorldMana.-second", {
-    opacity: 1,
-    y: transitionY,
   }).to(".about__expandRoad.-seventh", {
     opacity: 1,
   }).to(".about__expandWorldMainText.-seventh", {
@@ -120,9 +114,6 @@ if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android
   }).to(".about__expandRoad.-second", {
     opacity: 1,
     x: transitionX
-  }).to(".about__expandWorldMana.-first", {
-    opacity: 1,
-    x: transitionX,
   }).to(".about__expandWorldMainText.-second", {
     scale: 1,
   }).to(".about__expandRoad.-second", {
@@ -134,9 +125,6 @@ if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android
     scale: 1,
   }).to(".about__expandRoad.-fourth", {
     opacity: 1,
-  }).to(".about__expandWorldMana.-second", {
-    opacity: 1,
-    y: transitionY,
   }).to(".about__expandWorldMainText.-fourth", {
     scale: 1,
   }).to(".about__expandRoad.-fifth", {
