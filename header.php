@@ -72,7 +72,11 @@
   <header id="header" class="header"<?php if (is_front_page()) { echo(' style="opacity:0"'); } ?>>
     <h1 class="site-logo -sp"><a href="<?php echo home_url(); ?>"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/logo.svg'); ?></a></h1>
     <div class="header__space"></div>
-    <div class="header__loginButton -sp"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/login_button.svg'); ?></div>
+    <?php if( !is_user_logged_in() ) : ?>
+      <div class="header__loginButton -sp">
+        <a href="<?php echo home_url('/login/'); ?>"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/login_button.svg'); ?></a>
+      </div>
+    <?php endif; ?>
 		<nav class="header__hammenu -sp">
 			<span class="header__trigger" href="#" @click="toggleMenu" id="trigger">
 				<span></span>
@@ -117,7 +121,11 @@
 		<nav class="header__nav -pc">
       <div class="header__navUpper">
 			  <h1 class="site-logo"><a href="<?php echo home_url(); ?>"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/logo.svg'); ?></a></h1>
-        <div class="header__loginButton"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/login_button.svg'); ?></div>
+        <?php if( !is_user_logged_in() ) : ?>
+          <div class="header__loginButton">
+            <a href="<?php echo home_url('/login/'); ?>"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/login_button.svg'); ?></a>
+          </div>
+        <?php endif; ?>
       </div>
 			<?php
           wp_nav_menu(array(

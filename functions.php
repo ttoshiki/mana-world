@@ -65,3 +65,17 @@ function fix_price_number($cf7)
     $price = sanitize_text_field($_POST['cf7pp_price']);
     update_post_meta($post_id, "_cf7pp_price", $price);
 }
+
+
+add_filter('wpmem_login_redirect', 'my_login_redirect', 10, 2);
+function my_login_redirect($redirect_to, $user_id)
+{
+    if (is_page('login')) {
+        return 'https://mana-world.jp';
+    } else {
+        return $_SERVER['REQUEST_URI'];
+
+    }
+}
+
+
