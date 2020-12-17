@@ -50,6 +50,8 @@ function mana_world_scripts()
         wp_enqueue_script('gsap-scripts', get_stylesheet_directory_uri() . '/assets/js/lib/gsap.min.js', array(), '', true);
         wp_enqueue_script('gsap-scroll-scripts', get_stylesheet_directory_uri() . '/assets/js/lib/ScrollTrigger.min.js', array(), '', true);
         wp_enqueue_script('about-animation-scripts', get_stylesheet_directory_uri() . '/assets/js/about-animation.js', array(), '', true);
+    } elseif (is_page('payment')) {
+        wp_enqueue_script('payment-script', get_stylesheet_directory_uri() . '/assets/js/payment.js', array(), '', true);
     }
 }
 add_action('wp_enqueue_scripts', 'mana_world_scripts');
@@ -78,4 +80,16 @@ function my_login_redirect($redirect_to, $user_id)
     }
 }
 
+//プラグインのjs読み込みを削除する
+add_action('wp_enqueue_scripts', 'remove_cf7pp_scripts', 9);
+function remove_cf7pp_scripts()
+{
+    wp_dequeue_script('cf7pp-redirect_method');
+}
 
+//カスタマイズしたjsを読み込む
+add_action('wp_enqueue_scripts', 'customize_cf7pp_public_enqueue', 9);
+function customize_cf7pp_public_enqueue()
+{
+    wp_enqueue_script('cf7pp-redirect_method', get_stylesheet_directory_uri() . '/js/redirect_method.js', array('jquery'), null);
+}

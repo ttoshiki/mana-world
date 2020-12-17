@@ -473,7 +473,7 @@
         </div>
         <small class="about__agreementSectionSmall">規約制定　令和2年12月1日</small>
       </div>
-      <form method="post" name="form" action="<?php echo home_url('/payment/'); ?>" class="about__agreementForm">
+      <form name="form" action="//48auto.biz/pbfs77/touroku/sp/entryform6.htm" class="about__agreementForm">
         <label><input type="checkbox" name="agreedCheckbox" onclick=""><span class="about__agreementFormLabel">規約に同意する</span></label>
         <button type="submit" onclick="return checkAgree();" class="about__agreementSubmit">
           <span class="about__agreementSubmitInner">MANAWORLDへの<br>参加はこちらから</span>
