@@ -14,6 +14,29 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.wpcf7 input[type="email"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.wpcf7-form input[type="submit"] {
+  padding: 12px 64px;
+  margin: 40px auto 0;
+  background-color: #ff99e0;
+  border: none;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+  padding: 12px 64px;
+  margin: 40px auto 0;
+  background-color: #ff99e0;
+  border: none;
+}
+
 @include mq(mobile) {
   .site-logo {
     width: 38%;

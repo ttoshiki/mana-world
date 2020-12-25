@@ -86,10 +86,10 @@
 			<div class="header__hammenuWrapper">
 				<div class="header__hammenuInner">
 					<ul class="header__hammenuList">
-            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">INFORMATION</a></li>
-            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">ABOUT</a></li>
-            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">PROFILE</a></li>
-            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">CONTACT</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url('archives/category/information'); ?>" class="-en">INFORMATION</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url('/about/'); ?>" class="-en">ABOUT</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url('/profile/'); ?>" class="-en">PROFILE</a></li>
+            <li class="header__hammenuItem"><a href="<?php echo home_url('/contact/'); ?>" class="-en">CONTACT</a></li>
           </ul>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/menu_heading-sp@2x.png" alt="" class="header__hammenuHeading">
           <ul class="header__hammenuList">
