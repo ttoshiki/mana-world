@@ -218,9 +218,12 @@
   }
 
   &__onstage {
-    display: block;
+    margin: 40px 0 0;
+    text-align: center;
+  }
+
+  &__onstageImage {
     width: 50%;
-    margin: 40px auto 0;
   }
 
   &__newPost {
@@ -542,8 +545,11 @@
     }
 
     &__onstage {
-      width: 92%;
       margin: 48px auto 0;
+    }
+
+    &__onstageImage {
+      width: 92%;
     }
 
     &__newPostBackground {

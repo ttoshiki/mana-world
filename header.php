@@ -93,25 +93,25 @@
           </ul>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/menu_heading-sp@2x.png" alt="" class="header__hammenuHeading">
           <ul class="header__hammenuList">
-            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">COLUMN</a></li>
-            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">DIARY</a></li>
-            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">LIVE STREAM</a></li>
-            <li class="header__hammenuItem"><a href="<?php echo home_url(); ?>" class="-en">Q&A</a></li>
+            <li class="header__hammenuItem"><a href="/archives/category/column" class="-en">COLUMN</a></li>
+            <li class="header__hammenuItem"><a href="/archives/category/diary" class="-en">DIARY</a></li>
+            <li class="header__hammenuItem"><a href="/archives/category/live-stream" class="-en">LIVE STREAM</a></li>
+            <li class="header__hammenuItem"><a href="/archives/category/faqs" class="-en">Q&A</a></li>
           </ul>
           <div class="header__hammenuFollow">
             <span class="header__hammenuFollowHeading -en">FOLLOW ME</span>
             <ul class="header__hammenuFollowList">
               <li class="header__followItem">
-                <div class="header__followIcon"><a href=""><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_fb.svg'); ?></a></div>
+                <div class="header__followIcon"><a href="https://www.facebook.com/manyabbit"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_fb.svg'); ?></a></div>
               </li>
               <li class="header__followItem">
-                <div class="header__followIcon"><a href=""><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_instagram.svg'); ?></a></div>
+                <div class="header__followIcon"><a href="https://instagram.com/manalog29"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_instagram.svg'); ?></a></div>
               </li>
               <li class="header__followItem">
-                <div class="header__followIcon"><a href=""><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_twitter.svg'); ?></a></div>
+                <div class="header__followIcon"><a href="https://twitter.com/manalog29"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_twitter.svg'); ?></a></div>
               </li>
               <li class="header__followItem">
-                <div class="header__followIcon"><a href=""><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_mail.svg'); ?></a></div>
+                <div class="header__followIcon"><a href="/contact"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_mail.svg'); ?></a></div>
               </li>
             </ul>
           </div>

@@ -127,6 +127,9 @@ textarea {
   #main-contents .cps-post {
     margin-top: 48px;
   }
+  .single .cps-post-box {
+    margin-top: 12vw;
+  }
 }
 
 .header {
@@ -644,9 +647,12 @@ textarea {
 }
 
 .home__onstage {
-  display: block;
+  margin: 40px 0 0;
+  text-align: center;
+}
+
+.home__onstageImage {
   width: 50%;
-  margin: 40px auto 0;
 }
 
 .home__newPost {
@@ -936,8 +942,10 @@ textarea {
     margin-left: 0;
   }
   .home__onstage {
-    width: 92%;
     margin: 48px auto 0;
+  }
+  .home__onstageImage {
+    width: 92%;
   }
   .home__newPostBackground {
     top: 7vw;

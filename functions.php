@@ -93,3 +93,5 @@ function customize_cf7pp_public_enqueue()
 {
     wp_enqueue_script('cf7pp-redirect_method', get_stylesheet_directory_uri() . '/js/redirect_method.js', array('jquery'), null);
 }
+
+add_filter('run_wptexturize', '__return_false');
