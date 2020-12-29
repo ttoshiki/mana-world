@@ -111,7 +111,7 @@
                 <div class="header__followIcon"><a href="https://twitter.com/manalog29"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_twitter.svg'); ?></a></div>
               </li>
               <li class="header__followItem">
-                <div class="header__followIcon"><a href="/contact"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_mail.svg'); ?></a></div>
+                <div class="header__followIcon"><a href="https://48auto.biz/pbfs77/touroku/sp/entryform4.htm"><?php echo file_get_contents(get_stylesheet_directory_uri() . '/assets/images/icons/icon_mail.svg'); ?></a></div>
               </li>
             </ul>
           </div>
