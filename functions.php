@@ -52,6 +52,10 @@ function mana_world_scripts()
         wp_enqueue_script('about-animation-scripts', get_stylesheet_directory_uri() . '/assets/js/about-animation.js', array(), '', true);
     } elseif (is_page('payment')) {
         wp_enqueue_script('payment-script', get_stylesheet_directory_uri() . '/assets/js/payment.js', array(), '', true);
+    } elseif (is_page('update-card')) {
+        wp_enqueue_script('polyfill', 'https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch', array(), '', false);
+        wp_enqueue_script('stripe-script', 'https://js.stripe.com/v3/', array(), '', false);
+        wp_enqueue_script('update-card-script', get_stylesheet_directory_uri() . '/assets/js/update-card.js', array(), '', true);
     }
 }
 add_action('wp_enqueue_scripts', 'mana_world_scripts');
@@ -76,7 +80,6 @@ function my_login_redirect($redirect_to, $user_id)
         return 'https://mana-world.jp';
     } else {
         return $_SERVER['REQUEST_URI'];
-
     }
 }
 

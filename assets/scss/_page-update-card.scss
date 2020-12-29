@@ -1,0 +1,72 @@
+@import "_variables";
+
+#page-update-card {
+  &-error {
+    display: none;
+    color: #dc3232;
+  }
+}
+
+.update-card-title {
+  font-size: 1.5em;
+  color: #333333;
+}
+
+.update-card-label {
+  display: block;
+  color: #333333;
+}
+
+.update-card-error-message {
+  color: #dc3232;
+}
+
+.form-row {
+  margin-top: 16px;
+}
+
+#payment-form {
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+#payment-form #update-card-stripe-id {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 7px 10px;
+  margin-top: 6px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  -webkit-appearance: none;
+}
+
+.StripeElement {
+  padding: 6px 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+}
+
+#card-errors {
+  color: #dc3232;
+}
+
+.update-card-submit-button {
+  display: block;
+  padding: 12px 64px;
+  margin: 40px auto 0;
+  color: $white;
+  background-color: #ff99e0;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@include mq(mobile) {
+  .update-card-title {
+    margin-top: 40px;
+    font-size: 1.45rem;
+  }
+}

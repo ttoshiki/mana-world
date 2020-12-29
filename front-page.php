@@ -108,7 +108,7 @@
               array(
                 'taxonomy' => 'category',
                 'field' => 'slug',
-                'terms' => 'information',
+                'terms' => array('information', 'murmur'),
                 'operator' => 'NOT IN'
               ),
             )
