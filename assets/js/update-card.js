@@ -56,6 +56,8 @@ form.addEventListener('submit', function(event) {
           errorElement.textContent = result.error.message;
         } else {
           errorElement.style.display = 'none'
+          const submitButton =  document.getElementById('update-submit-button')
+          submitButton.disabled = true
           // クレジットカードトークンを自サーバにsubmitする
           stripeTokenHandler(result.token);
         }

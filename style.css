@@ -2243,6 +2243,14 @@ textarea {
   cursor: pointer;
 }
 
+.update-card-submit-button:disabled {
+  background-color: rgba(255, 153, 224, 0.5);
+}
+
+.update-card-submit-button:disabled:hover {
+  cursor: default;
+}
+
 @media screen and (max-width: 480px) {
   .update-card-title {
     margin-top: 40px;

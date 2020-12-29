@@ -62,6 +62,14 @@
   &:hover {
     cursor: pointer;
   }
+
+  &:disabled {
+    background-color: rgba(#ff99e0, 0.5);
+
+    &:hover {
+      cursor: default;
+    }
+  }
 }
 
 @include mq(mobile) {
