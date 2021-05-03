@@ -1602,6 +1602,13 @@ textarea {
   text-align: center;
 }
 
+.about__memberSmallCaution {
+  display: block;
+  margin-top: 4px;
+  font-size: 11px;
+  text-align: center;
+}
+
 .about__memberCourses {
   display: flex;
   justify-content: center;

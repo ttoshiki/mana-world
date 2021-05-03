@@ -1,5 +1,5 @@
 // Create an instance of the Stripe object with your publishable API key
-var stripe = Stripe("pk_test_51HbIJAJnp86bDaQ9lqqw26hNBURLcFUzVOcq0iuvFolILjPmlBMOO27IX424lSK1cpVjDdFYc6slMqDfDpIvSU2N00YsB2jUXd");
+var stripe = Stripe("pk_live_51HbIJAJnp86bDaQ97TvRcEyoF5UX3wxknkBqiKDDAomwQcJUwPDtyF5fTZb8BqY5RxxVkhJEAU6i9bZuQ3MtckxB00JY2LyKch");
 var checkoutButton = document.getElementById("checkout-button");
 const elements = stripe.elements();
 // スタイルのカスタマイズ
@@ -24,7 +24,7 @@ function stripeIdValidation() {
   const errorMessageText = document.getElementById('page-update-card-error')
   let value = stripeIdForm.value
 
-  if (value == "" || !value.match(/^cus_/) || value.length !== 18) {
+  if (value === "" || !value.match(/^cus_/) || value.length !== 18) {
     error = true;
   }
 

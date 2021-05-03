@@ -149,6 +149,7 @@
     </section>
     <section class="about__member">
       <p class="about__memberParagraph">『MANA WORLD』は年額の会員サービスです。</p>
+      <small class="about__memberSmallCaution">※2年目以降、1年ごとに自動更新</small>
       <div class="about__memberCourses">
         <div class="about__memberCourse">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_01.png" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_01.png 1x, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/course_01@2x.png 2x" class="about__courseName" alt="" loading="lazy">
