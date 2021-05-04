@@ -60,19 +60,6 @@ function mana_world_scripts()
 }
 add_action('wp_enqueue_scripts', 'mana_world_scripts');
 
-//****************************//
-//PayPal＆Stripe add-onプラグイン
-//****************************//
-//通貨単位を書き換える
-add_action('wpcf7_after_save', 'fix_price_number', 12, 1);
-function fix_price_number($cf7)
-{
-    $post_id = sanitize_text_field($_POST['cf7pp_post']);
-    $price = sanitize_text_field($_POST['cf7pp_price']);
-    update_post_meta($post_id, "_cf7pp_price", $price);
-}
-
-
 add_filter('wpmem_login_redirect', 'my_login_redirect', 10, 2);
 function my_login_redirect($redirect_to, $user_id)
 {
@@ -81,20 +68,6 @@ function my_login_redirect($redirect_to, $user_id)
     } else {
         return $_SERVER['REQUEST_URI'];
     }
-}
-
-//プラグインのjs読み込みを削除する
-add_action('wp_enqueue_scripts', 'remove_cf7pp_scripts', 9);
-function remove_cf7pp_scripts()
-{
-    wp_dequeue_script('cf7pp-redirect_method');
-}
-
-//カスタマイズしたjsを読み込む
-add_action('wp_enqueue_scripts', 'customize_cf7pp_public_enqueue', 9);
-function customize_cf7pp_public_enqueue()
-{
-    wp_enqueue_script('cf7pp-redirect_method', get_stylesheet_directory_uri() . '/js/redirect_method.js', array('jquery'), null);
 }
 
 add_filter('run_wptexturize', '__return_false');
